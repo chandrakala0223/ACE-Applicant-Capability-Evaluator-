@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "TalentOS AI"
+version = "1.0.0"
+id = "artifacts/talent-os"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26068
+
+[services.development]
+run = "pnpm --filter @workspace/talent-os run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/talent-os", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/talent-os/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26068"
+BASE_PATH = "/"

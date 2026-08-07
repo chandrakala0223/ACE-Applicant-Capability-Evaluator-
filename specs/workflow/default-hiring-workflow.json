@@ -1,0 +1,21 @@
+{
+  "id": "default-hiring-workflow",
+  "name": "Default AI Hiring Workflow",
+  "workflow": [
+    "resume_parser",
+    "embedding_agent",
+    "github_analysis_agent",
+    "linkedin_analysis_agent",
+    "portfolio_agent",
+    "coding_profile_agent",
+    "skill_matching_agent",
+    "project_evaluation_agent",
+    "shortlisting_agent",
+    "role_recommendation_agent",
+    "hiring_recommendation_agent",
+    "candidate_ranking_agent",
+    "human_approval",
+    "interview_agent",
+    "email_agent"
+  ]
+}

@@ -1,0 +1,329 @@
+You are a Senior AI Engineer, Senior Full Stack Engineer, Senior React Engineer, Senior Backend Engineer, and Senior LangGraph Engineer.
+
+I am uploading my existing TalentOS project.
+
+IMPORTANT RULES
+
+1. Analyze the ENTIRE project before making any changes.
+2. Do NOT redesign the project.
+3. Do NOT change the folder structure.
+4. Do NOT rewrite existing features.
+5. Do NOT generate mock, fake, demo, placeholder, or random data.
+6. Do NOT fabricate AI outputs, workflow logs, candidates, jobs, or reports.
+7. Keep the existing architecture and fix only the real issues.
+
+====================================================
+PRIMARY GOAL
+====================================================
+
+I want the ENTIRE project to work correctly.
+
+This includes:
+
+- Frontend UI
+- Backend APIs
+- Database
+- Authentication
+- AI Agents
+- LangGraph Workflow
+- React Flow
+- MongoDB
+- Qdrant
+- Groq/OpenRouter
+- Email
+- Dashboard
+
+Everything must work together.
+
+====================================================
+STEP 1 - FRONTEND
+====================================================
+
+Verify the frontend completely.
+
+Fix:
+
+- React errors
+- TypeScript errors
+- Zod v4 compatibility issues
+- Tailwind issues
+- Vite issues
+- Routing issues
+- Blank pages
+- White screen
+- Components not rendering
+- API client initialization
+- React Query issues
+- React Flow rendering
+- Dashboard pages
+- Candidate pages
+- Job pages
+- AI Processing page
+- Workflow visualization page
+- Settings page
+- Login
+- Signup
+
+Verify that npm install, npm run dev and npm run build all work successfully.
+
+====================================================
+STEP 2 - BACKEND
+====================================================
+
+Verify:
+
+- Express
+- MongoDB Atlas
+- Qdrant
+- Authentication
+- JWT
+- API routes
+- Upload middleware
+- PDF parsing
+- Workflow routes
+- Error handling
+
+Every API should return real data.
+
+====================================================
+STEP 3 - AI AGENTS
+====================================================
+
+Verify EVERY agent individually.
+
+Resume Parser
+
+Embedding Agent
+
+GitHub Agent
+
+LinkedIn Agent
+
+Portfolio Agent
+
+Coding Profile Agent
+
+Skill Matching Agent
+
+Project Evaluation Agent
+
+Shortlisting Agent
+
+Role Recommendation Agent
+
+Hiring Recommendation Agent
+
+Candidate Ranking Agent
+
+Human Approval
+
+Interview Question Generator
+
+Email Agent
+
+Verify every agent executes successfully.
+
+====================================================
+STEP 4 - WORKFLOW
+====================================================
+
+Trace the complete workflow.
+
+Resume Upload
+
+↓
+
+Candidate Creation
+
+↓
+
+startWorkflow()
+
+↓
+
+executeWorkflow()
+
+↓
+
+Resume Parser
+
+↓
+
+Embedding
+
+↓
+
+GitHub
+
+↓
+
+LinkedIn
+
+↓
+
+Portfolio
+
+↓
+
+Coding Profiles
+
+↓
+
+Skill Matching
+
+↓
+
+Project Evaluation
+
+↓
+
+Shortlisting
+
+↓
+
+Role Recommendation
+
+↓
+
+Hiring Recommendation
+
+↓
+
+Candidate Ranking
+
+↓
+
+Human Approval
+
+↓
+
+Interview Questions
+
+↓
+
+Email
+
+↓
+
+Completed
+
+Every workflow step must execute correctly.
+
+====================================================
+STEP 5 - DATABASE
+====================================================
+
+Verify every collection.
+
+Candidates
+
+Jobs
+
+Workflow
+
+WorkflowLog
+
+GitHubReport
+
+LinkedInReport
+
+RoleRecommendation
+
+IntelligenceReport
+
+ComparisonResult
+
+Verify MongoDB contains real records after execution.
+
+====================================================
+STEP 6 - FRONTEND ↔ BACKEND
+====================================================
+
+Verify every frontend API call.
+
+Login
+
+Signup
+
+Jobs
+
+Candidates
+
+Workflow
+
+Dashboard
+
+AI Processing
+
+React Flow
+
+Chat
+
+Everything must use the real backend APIs.
+
+====================================================
+STEP 7 - UI VERIFICATION
+====================================================
+
+Inspect every page visually.
+
+Fix:
+
+- Blank pages
+- Broken layouts
+- Missing components
+- Missing workflow nodes
+- Buttons not working
+- Upload issues
+- Forms
+- Tables
+- Charts
+- React Flow graph
+- Dashboard cards
+- Responsive layout
+- Loading states
+- Error states
+
+The application should look professional and fully functional.
+
+====================================================
+STEP 8 - NO FAKE DATA
+====================================================
+
+Remove every source of:
+
+- mock data
+- demo data
+- placeholder data
+- hardcoded arrays
+- sample candidates
+- sample jobs
+- random AI outputs
+- fake workflow logs
+
+If data does not exist, show an appropriate empty state instead of generating fake content.
+
+====================================================
+STEP 9 - FINAL VERIFICATION
+====================================================
+
+Run the complete application.
+
+Verify:
+
+✓ Frontend loads successfully.
+✓ Backend starts successfully.
+✓ User can log in.
+✓ User can create jobs.
+✓ User can upload resumes.
+✓ Workflow starts.
+✓ Every AI agent executes.
+✓ Workflow logs are created.
+✓ MongoDB is updated.
+✓ Qdrant is updated.
+✓ React Flow displays the real workflow.
+✓ Dashboard reflects real data.
+✓ No runtime errors.
+✓ No fake/demo data.
+
+Do NOT tell me the project is fixed until you have actually run it and verified all of the above.

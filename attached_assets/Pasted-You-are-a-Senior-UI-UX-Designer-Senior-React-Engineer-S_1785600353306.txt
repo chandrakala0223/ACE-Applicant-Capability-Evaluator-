@@ -1,0 +1,630 @@
+You are a Senior UI/UX Designer, Senior React Engineer, Senior TypeScript Engineer, and Senior Frontend Architect.
+
+Analyze the existing frontend completely before making any changes.
+
+IMPORTANT RULES
+
+1. Do NOT modify the backend.
+2. Do NOT change the existing folder structure.
+3. Do NOT redesign the backend APIs.
+4. Do NOT generate mock/demo/fake/sample/random data.
+5. Use ONLY the existing backend APIs.
+6. Preserve the current architecture and improve the frontend professionally.
+7. Build a production-ready enterprise UI.
+
+====================================================
+MAIN OBJECTIVE
+====================================================
+
+The application MUST NOT open directly on the Recruiter Login page.
+
+The first experience should be a beautiful Job Seeker Landing Page.
+
+The Recruiter Portal should be accessible from a separate "Recruiter Portal" button in the navigation bar.
+
+This should feel like a real AI-powered Recruitment Platform similar to Greenhouse, Lever, Ashby, LinkedIn Jobs, Wellfound, and Workday while having its own unique identity.
+
+====================================================
+DESIGN STYLE
+====================================================
+
+Create a modern enterprise UI.
+
+Theme:
+
+• AI Recruitment Platform
+• Premium
+• Minimal
+• Clean
+• Elegant
+• Professional
+• Responsive
+• Smooth animations
+• Glassmorphism
+• Soft gradients
+• Rounded cards
+• Large whitespace
+• Beautiful typography
+
+Use Framer Motion animations.
+
+====================================================
+COLOR PALETTE
+====================================================
+
+Background
+
+White
+Soft Blue
+Light Indigo
+Very Light Purple
+
+Gradient
+
+White → Sky Blue → Light Purple
+
+Primary
+
+Royal Blue
+
+Secondary
+
+Deep Indigo
+
+Accent
+
+Emerald Green
+
+Success
+
+Green
+
+Warning
+
+Orange
+
+Error
+
+Red
+
+Avoid dark black backgrounds.
+
+Use soft shadows.
+
+Rounded corners.
+
+Modern icons.
+
+====================================================
+LANDING PAGE
+====================================================
+
+Hero Section
+
+Large Title
+
+"Find Your Dream Career with AI"
+
+Subtitle
+
+"TalentOS uses Artificial Intelligence to connect talented candidates with the right opportunities through intelligent resume analysis, skill matching, GitHub evaluation, portfolio analysis, and AI-powered hiring."
+
+Buttons
+
+Primary
+
+Find Jobs
+
+Secondary
+
+Upload Resume
+
+Third
+
+Watch Demo
+
+Beautiful animated AI illustration on the right.
+
+Floating cards showing
+
+✓ Resume Analysis
+
+✓ AI Match Score
+
+✓ GitHub Review
+
+✓ Interview Ready
+
+====================================================
+NAVIGATION BAR
+====================================================
+
+Logo
+
+Home
+
+Jobs
+
+Companies
+
+About
+
+Contact
+
+Recruiter Portal
+
+The Recruiter Portal button should appear on the top-right.
+
+Clicking Recruiter Portal opens the recruiter login.
+
+The application should NEVER redirect directly to login.
+
+====================================================
+FEATURED JOBS
+====================================================
+
+Professional Job Cards
+
+Company Logo
+
+Company Name
+
+Role
+
+Salary
+
+Location
+
+Experience
+
+Skills
+
+Employment Type
+
+Remote / Hybrid
+
+Apply Button
+
+Search
+
+Filters
+
+Categories
+
+====================================================
+HOW IT WORKS
+====================================================
+
+Animated Timeline
+
+Step 1
+
+Browse Jobs
+
+↓
+
+Step 2
+
+View Job Details
+
+↓
+
+Step 3
+
+Upload Resume
+
+↓
+
+Step 4
+
+AI Resume Analysis
+
+↓
+
+Step 5
+
+Skill Matching
+
+↓
+
+Step 6
+
+Recruiter Review
+
+↓
+
+Step 7
+
+Interview Invitation
+
+====================================================
+WHY TALENTOS
+====================================================
+
+Animated Feature Cards
+
+AI Resume Parsing
+
+GitHub Analysis
+
+LinkedIn Analysis
+
+Portfolio Review
+
+Coding Profile Analysis
+
+Semantic Skill Matching
+
+Project Evaluation
+
+Candidate Ranking
+
+Interview Question Generation
+
+AI Hiring Recommendation
+
+====================================================
+STATISTICS
+====================================================
+
+Animated Counters
+
+Jobs Posted
+
+Candidates
+
+Companies
+
+Resumes Processed
+
+AI Accuracy
+
+Successful Placements
+
+====================================================
+TESTIMONIALS
+====================================================
+
+Beautiful Cards
+
+Candidate Reviews
+
+Recruiter Reviews
+
+Company Reviews
+
+====================================================
+FAQ
+====================================================
+
+Modern Accordion
+
+====================================================
+FOOTER
+====================================================
+
+About
+
+Contact
+
+Privacy
+
+Terms
+
+GitHub
+
+LinkedIn
+
+Email
+
+====================================================
+JOB SEEKER FLOW
+====================================================
+
+Landing Page
+
+↓
+
+Browse Jobs
+
+↓
+
+Search Jobs
+
+↓
+
+View Job Details
+
+↓
+
+Click Apply
+
+↓
+
+Application Form
+
+Application Form should contain
+
+Full Name
+
+Email
+
+Phone Number
+
+LinkedIn URL
+
+GitHub URL
+
+Portfolio URL
+
+Resume Upload (PDF)
+
+Submit Button
+
+After submission
+
+Show
+
+Application Submitted Successfully
+
+Then
+
+Display
+
+Your resume is being processed by our AI.
+
+Show LIVE workflow progress
+
+Resume Parser
+
+↓
+
+Embedding
+
+↓
+
+GitHub Analysis
+
+↓
+
+LinkedIn Analysis
+
+↓
+
+Portfolio Analysis
+
+↓
+
+Coding Profile Analysis
+
+↓
+
+Skill Matching
+
+↓
+
+Project Evaluation
+
+↓
+
+Hiring Recommendation
+
+↓
+
+Completed
+
+Use real workflow status from backend.
+
+No fake progress.
+
+====================================================
+RECRUITER PORTAL
+====================================================
+
+Separate Login
+
+After Login
+
+Dashboard
+
+Jobs
+
+Candidates
+
+AI Processing
+
+Workflow Visualization
+
+Analytics
+
+AI Chat
+
+Settings
+
+Notifications
+
+====================================================
+AI PROCESSING PAGE
+====================================================
+
+Professional React Flow visualization.
+
+Display every AI agent.
+
+Resume Parser
+
+Embedding
+
+GitHub
+
+LinkedIn
+
+Portfolio
+
+Coding Profiles
+
+Skill Matching
+
+Project Evaluation
+
+Shortlisting
+
+Role Recommendation
+
+Hiring Recommendation
+
+Candidate Ranking
+
+Human Approval
+
+Interview Questions
+
+Email
+
+Completed
+
+Each node should display
+
+Status
+
+Execution Time
+
+Confidence
+
+Retry Count
+
+Output Summary
+
+Error Details
+
+Progress
+
+====================================================
+CANDIDATE MANAGEMENT
+====================================================
+
+Candidate List
+
+Search
+
+Filters
+
+Sorting
+
+Resume Viewer
+
+GitHub Report
+
+LinkedIn Report
+
+Portfolio Report
+
+Coding Profiles
+
+Projects
+
+Skill Matching
+
+Ranking
+
+AI Recommendation
+
+Interview Questions
+
+====================================================
+ANALYTICS
+====================================================
+
+Hiring Funnel
+
+Applicants
+
+Shortlisted
+
+Rejected
+
+Selected
+
+Top Skills
+
+Top Universities
+
+Experience Distribution
+
+Hiring Trends
+
+====================================================
+SETTINGS
+====================================================
+
+Profile
+
+Theme
+
+API Status
+
+MongoDB
+
+Qdrant
+
+Groq
+
+OpenRouter
+
+Resend
+
+Workflow Settings
+
+====================================================
+RESPONSIVE DESIGN
+====================================================
+
+Desktop
+
+Tablet
+
+Mobile
+
+====================================================
+QUALITY REQUIREMENTS
+====================================================
+
+Professional enterprise design.
+
+Excellent spacing.
+
+Smooth animations.
+
+Loading skeletons.
+
+Hover effects.
+
+Beautiful icons.
+
+Accessibility.
+
+Responsive layouts.
+
+Modern typography.
+
+Premium dashboard.
+
+====================================================
+IMPORTANT
+====================================================
+
+DO NOT create fake jobs.
+
+DO NOT create fake candidates.
+
+DO NOT create fake workflow logs.
+
+DO NOT generate random AI data.
+
+Use ONLY real backend APIs.
+
+Preserve the existing backend.
+
+Modify ONLY the frontend.
+
+The final application should feel like a premium AI-powered recruitment platform where Job Seekers arrive first, Recruiters access their own portal, and the complete user experience is polished, modern, and enterprise-ready.

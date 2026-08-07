@@ -1,0 +1,209 @@
+You are a Senior Software Architect, Senior AI Engineer, Senior React Engineer, Senior Backend Engineer, and Senior DevOps Engineer.
+
+I have uploaded my COMPLETE TalentOS project as a ZIP.
+
+IMPORTANT INSTRUCTIONS
+
+1. Analyze the ENTIRE project before making ANY code changes.
+2. This is an EXISTING project. Do NOT create a new project.
+3. Do NOT redesign the architecture.
+4. Do NOT change the folder structure.
+5. Do NOT create a new frontend or backend.
+6. This project is a pnpm monorepo.
+
+Project structure:
+
+/
+├── artifacts/
+│   ├── api-server/      (Backend)
+│   └── talent-os/       (Frontend)
+├── agents/
+├── lib/
+├── scripts/
+├── specs/
+├── package.json
+├── pnpm-workspace.yaml
+└── ...
+
+The frontend is inside:
+artifacts/talent-os
+
+The backend is inside:
+artifacts/api-server
+
+Do NOT assume any folder is missing.
+
+====================================================
+
+FIRST TASK
+
+Recursively scan the ENTIRE workspace.
+
+Detect:
+
+• Every package.json
+• Every src folder
+• Every workspace package
+• Every React project
+• Every Express project
+• Every configuration file
+
+Verify that both frontend and backend exist.
+
+If anything is missing because of an incomplete upload, STOP and tell me exactly which folder is missing.
+
+Do NOT generate replacement code.
+
+====================================================
+
+SECOND TASK
+
+Understand the complete architecture.
+
+Explain:
+
+• Frontend architecture
+• Backend architecture
+• AI workflow
+• Database models
+• API routes
+• React Flow
+• AI agents
+• Authentication
+• Job application flow
+
+====================================================
+
+THIRD TASK
+
+Verify the application.
+
+Check:
+
+✓ Frontend builds successfully.
+✓ Backend builds successfully.
+✓ pnpm workspace is configured correctly.
+✓ Vite starts.
+✓ Express starts.
+✓ MongoDB connects.
+✓ Qdrant connects.
+✓ All routes are registered.
+
+====================================================
+
+FOURTH TASK
+
+Inspect EVERY frontend page.
+
+Dashboard
+
+Jobs
+
+Public Jobs
+
+Apply
+
+Candidates
+
+Candidate Details
+
+Workflow
+
+AI Processing
+
+Analytics
+
+AI Chat
+
+Notifications
+
+Templates
+
+Hiring Specs
+
+Settings
+
+Verify:
+
+• Page renders
+• Buttons work
+• Routing works
+• React Query works
+• React Flow works
+• API integration works
+
+====================================================
+
+FIFTH TASK
+
+Verify EVERY AI agent.
+
+Resume Parser
+
+Embedding Agent
+
+GitHub Agent
+
+LinkedIn Agent
+
+Portfolio Agent
+
+Coding Profile Agent
+
+Skill Matching Agent
+
+Project Evaluation Agent
+
+Shortlisting Agent
+
+Role Recommendation Agent
+
+Hiring Recommendation Agent
+
+Candidate Ranking Agent
+
+Human Approval
+
+Interview Question Generator
+
+Email Agent
+
+Trace the execution from resume upload until workflow completion.
+
+====================================================
+
+IMPORTANT
+
+Do NOT create demo data.
+Do NOT create mock data.
+Do NOT fabricate workflow logs.
+Do NOT fabricate AI outputs.
+Do NOT fabricate candidates.
+Do NOT fabricate jobs.
+
+If data does not exist, return an empty state.
+
+If something is broken, fix the actual implementation instead of simulating success.
+
+====================================================
+
+WORKING STYLE
+
+Fix ONE issue at a time.
+
+After each fix:
+
+1. Build the project.
+2. Run the project.
+3. Verify the fix works.
+4. Continue to the next issue.
+
+Never claim "everything is fixed" without actually running and verifying the application.
+
+At the end, provide:
+
+• Bugs found
+• Files modified
+• Why each bug occurred
+• How it was fixed
+• Verification that the fix was tested successfully

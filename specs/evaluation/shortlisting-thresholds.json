@@ -1,0 +1,11 @@
+{
+  "shortlist": 80,
+  "hold_min": 60,
+  "hold_max": 79,
+  "reject_below": 60,
+  "labels": {
+    "shortlist": "Shortlisted",
+    "hold": "Hold",
+    "reject": "Rejected"
+  }
+}

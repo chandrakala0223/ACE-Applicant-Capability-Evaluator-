@@ -1,0 +1,543 @@
+You are a Senior React Engineer, Senior UI/UX Designer, Senior TypeScript Engineer, and Senior Frontend Architect.
+
+Analyze the existing frontend first.
+
+IMPORTANT RULES
+
+1. DO NOT redesign the project.
+2. DO NOT change the folder structure.
+3. DO NOT remove any existing features.
+4. DO NOT create a new frontend.
+5. DO NOT use mock/demo/fake/sample/random data.
+6. Every page must consume REAL backend APIs only.
+7. Preserve the existing design and improve it professionally.
+8. Make the UI responsive and production-ready.
+
+===========================================================
+COMPLETE FRONTEND REQUIREMENTS
+===========================================================
+
+The application has TWO user roles.
+
+-----------------------------------------------------------
+1. RECRUITER PORTAL
+-----------------------------------------------------------
+
+After login the recruiter should have a modern dashboard.
+
+Dashboard should contain
+
+• Total Jobs
+• Total Candidates
+• Shortlisted Candidates
+• Pending Reviews
+• Active AI Workflows
+• Hiring Analytics
+• Recent Activities
+• AI Processing Status
+• Notifications
+• Quick Actions
+
+Beautiful cards
+
+Charts
+
+Progress indicators
+
+Recent workflow table
+
+Modern sidebar
+
+Top navigation
+
+Responsive design
+
+-----------------------------------------------------------
+2. JOB MANAGEMENT
+-----------------------------------------------------------
+
+Recruiter should be able to
+
+Create Job
+
+Edit Job
+
+Delete Job
+
+Publish Job
+
+Close Job
+
+Duplicate Job
+
+Job Detail Page
+
+Job Description
+
+Required Skills
+
+Experience
+
+Education
+
+Location
+
+Salary
+
+Employment Type
+
+Applicants Count
+
+AI Recommended Candidates
+
+-----------------------------------------------------------
+3. PUBLIC JOB PORTAL (JOB SEEKER)
+-----------------------------------------------------------
+
+A completely separate public website.
+
+Candidate should NOT login.
+
+Candidate should be able to
+
+Browse Jobs
+
+Search Jobs
+
+Filter Jobs
+
+View Job Details
+
+Click Apply
+
+-----------------------------------------------------------
+4. APPLY PAGE
+-----------------------------------------------------------
+
+When candidate clicks Apply
+
+Display
+
+Full Name
+
+Email
+
+Phone Number
+
+LinkedIn URL
+
+GitHub URL
+
+Portfolio URL
+
+Resume Upload (PDF)
+
+Submit Application Button
+
+After upload show
+
+Resume Uploaded Successfully
+
+Now Processing...
+
+-----------------------------------------------------------
+5. AI PROCESSING PAGE
+-----------------------------------------------------------
+
+This page is VERY IMPORTANT.
+
+Show entire AI Workflow using React Flow.
+
+Resume Upload
+
+↓
+
+Resume Parser
+
+↓
+
+Embedding Agent
+
+↓
+
+GitHub Analysis
+
+↓
+
+LinkedIn Analysis
+
+↓
+
+Portfolio Analysis
+
+↓
+
+Coding Profile Analysis
+
+↓
+
+Skill Matching
+
+↓
+
+Project Evaluation
+
+↓
+
+Shortlisting
+
+↓
+
+Role Recommendation
+
+↓
+
+Hiring Recommendation
+
+↓
+
+Candidate Ranking
+
+↓
+
+Human Approval
+
+↓
+
+Interview Question Generator
+
+↓
+
+Email Notification
+
+↓
+
+Completed
+
+Every node should display
+
+Status
+
+Execution Time
+
+Confidence
+
+Retry Count
+
+Error Details
+
+Progress
+
+Workflow Logs
+
+All data must come from WorkflowLog API.
+
+No fake nodes.
+
+-----------------------------------------------------------
+6. CANDIDATE MANAGEMENT
+-----------------------------------------------------------
+
+Recruiter should see
+
+Candidate List
+
+Search
+
+Filters
+
+Sorting
+
+Ranking
+
+Match Score
+
+Status
+
+Resume
+
+AI Recommendation
+
+Candidate Details
+
+Tabs
+
+Overview
+
+Resume Viewer
+
+GitHub Report
+
+LinkedIn Report
+
+Portfolio Report
+
+Coding Profiles
+
+Skill Matching
+
+Projects
+
+Role Recommendation
+
+Hiring Recommendation
+
+Interview Questions
+
+Workflow Logs
+
+-----------------------------------------------------------
+7. CANDIDATE COMPARISON
+-----------------------------------------------------------
+
+Recruiter selects multiple candidates.
+
+Show
+
+Overall Score
+
+Skill Match
+
+Projects
+
+Experience
+
+GitHub Score
+
+LinkedIn Score
+
+Portfolio Score
+
+AI Recommendation
+
+Strengths
+
+Weaknesses
+
+Better Role Suggestion
+
+-----------------------------------------------------------
+8. AI RECRUITER CHAT
+-----------------------------------------------------------
+
+Professional chatbot.
+
+Recruiter should ask
+
+Why is this candidate ranked first?
+
+Compare candidate A and B
+
+Generate interview questions
+
+Summarize resume
+
+Explain recommendation
+
+Suggest better role
+
+Show confidence
+
+Show evidence
+
+-----------------------------------------------------------
+9. ANALYTICS PAGE
+-----------------------------------------------------------
+
+Show
+
+Hiring Funnel
+
+Applicants
+
+Shortlisted
+
+Rejected
+
+Selected
+
+Skill Distribution
+
+Experience Distribution
+
+Top Universities
+
+Top Skills
+
+Hiring Trends
+
+Average Match Score
+
+Average Hiring Confidence
+
+-----------------------------------------------------------
+10. NOTIFICATIONS
+-----------------------------------------------------------
+
+Workflow Completed
+
+Approval Required
+
+Resume Uploaded
+
+Candidate Shortlisted
+
+Interview Scheduled
+
+Email Sent
+
+-----------------------------------------------------------
+11. SETTINGS
+-----------------------------------------------------------
+
+Profile
+
+Theme
+
+API Status
+
+MongoDB Status
+
+Qdrant Status
+
+Groq Status
+
+OpenRouter Status
+
+Resend Status
+
+Workflow Configuration
+
+-----------------------------------------------------------
+12. RESPONSIVE DESIGN
+-----------------------------------------------------------
+
+Desktop
+
+Tablet
+
+Mobile
+
+Dark Mode
+
+Light Mode
+
+Loading States
+
+Empty States
+
+Error States
+
+Skeleton Loaders
+
+Animations
+
+-----------------------------------------------------------
+13. API INTEGRATION
+-----------------------------------------------------------
+
+Frontend must ONLY use
+
+/api/auth
+
+/api/jobs
+
+/api/candidates
+
+/api/workflows
+
+/api/dashboard
+
+/api/chat
+
+/api/public
+
+No hardcoded data.
+
+No sample candidates.
+
+No fake jobs.
+
+No random workflow logs.
+
+-----------------------------------------------------------
+14. UI QUALITY
+-----------------------------------------------------------
+
+Professional ATS design.
+
+Modern cards
+
+Professional tables
+
+Interactive charts
+
+React Flow visualization
+
+Professional forms
+
+Search
+
+Filters
+
+Pagination
+
+Breadcrumbs
+
+Notifications
+
+Toast messages
+
+Confirmation dialogs
+
+Accessible UI
+
+Responsive layout
+
+-----------------------------------------------------------
+15. FINAL VERIFICATION
+-----------------------------------------------------------
+
+Verify every page manually.
+
+Dashboard
+
+Jobs
+
+Public Jobs
+
+Apply
+
+Candidates
+
+Candidate Details
+
+Workflow
+
+AI Processing
+
+Analytics
+
+Chat
+
+Settings
+
+Notifications
+
+Every button should work.
+
+Every API should return real backend data.
+
+No runtime errors.
+
+No TypeScript errors.
+
+No React errors.
+
+No Zod errors.
+
+No Vite errors.
+
+No fake/demo/random/generated data anywhere.
+
+The frontend should look like a modern enterprise Applicant Tracking System similar to Greenhouse, Lever, Ashby, or Workday while preserving the existing architecture and integrating with the existing backend.

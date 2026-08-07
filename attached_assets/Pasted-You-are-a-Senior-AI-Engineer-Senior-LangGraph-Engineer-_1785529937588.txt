@@ -1,0 +1,302 @@
+You are a Senior AI Engineer, Senior LangGraph Engineer, Senior Backend Engineer, and Senior Full Stack Engineer.
+
+I am uploading my existing TalentOS project.
+
+IMPORTANT RULES
+
+1. Analyze the ENTIRE project before making ANY changes.
+2. Do NOT redesign the project.
+3. Do NOT change the folder structure.
+4. Do NOT rewrite existing features.
+5. Do NOT generate mock, demo, fake, random, placeholder, or hardcoded data.
+6. Do NOT fabricate AI outputs or workflow logs.
+7. Only use the existing architecture and fix the runtime issues.
+
+====================================================
+PRIMARY GOAL
+====================================================
+
+The biggest issue is that the AI agents are NOT working correctly.
+
+I want the COMPLETE AI pipeline to work with REAL data only.
+
+You must verify every single agent from start to finish.
+
+====================================================
+VERIFY EVERY AGENT
+====================================================
+
+Check each agent individually:
+
+1. Resume Parser Agent
+- Verify PDF upload
+- Verify PDF text extraction
+- Verify parsed JSON
+- Verify Candidate.parsedResume is saved
+
+2. Embedding Agent
+- Verify embeddings are generated
+- Verify vectors are stored in Qdrant
+- Verify no fallback or fake embeddings
+
+3. GitHub Analysis Agent
+- Verify GitHub URL detection
+- Verify GitHub API call
+- Verify repository analysis
+- Verify database storage
+
+4. LinkedIn Analysis Agent
+- Verify LinkedIn profile extraction
+- Verify analysis
+- Verify report generation
+
+5. Portfolio Agent
+- Verify portfolio URL
+- Verify website analysis
+- Verify results saved
+
+6. Coding Profile Agent
+- Verify LeetCode
+- Verify Codeforces
+- Verify HackerRank
+- Verify scores
+
+7. Skill Matching Agent
+- Verify RAG retrieval
+- Verify Qdrant search
+- Verify skill matching score
+
+8. Project Evaluation Agent
+- Verify project analysis
+- Verify scoring
+
+9. Shortlisting Agent
+- Verify recommendation logic
+- Verify shortlist decision
+
+10. Role Recommendation Agent
+- Verify recommended roles
+- Verify confidence score
+
+11. Hiring Recommendation Agent
+- Verify hiring recommendation
+- Verify reasoning
+
+12. Candidate Ranking Agent
+- Verify ranking calculation
+- Verify ranking saved
+
+13. Human Approval
+- Verify pause
+- Verify resume
+
+14. Interview Question Generator
+- Verify questions generated
+
+15. Email Agent
+- Verify email payload
+- Verify Resend integration
+- If API key is missing, return a real error.
+Do NOT fake success.
+
+====================================================
+WORKFLOW VERIFICATION
+====================================================
+
+Trace the entire execution.
+
+Resume Upload
+
+↓
+
+Candidate Creation
+
+↓
+
+startWorkflow()
+
+↓
+
+executeWorkflow()
+
+↓
+
+Resume Parser
+
+↓
+
+Embedding
+
+↓
+
+GitHub
+
+↓
+
+LinkedIn
+
+↓
+
+Portfolio
+
+↓
+
+Coding Profiles
+
+↓
+
+Skill Matching
+
+↓
+
+Project Evaluation
+
+↓
+
+Shortlisting
+
+↓
+
+Role Recommendation
+
+↓
+
+Hiring Recommendation
+
+↓
+
+Candidate Ranking
+
+↓
+
+Human Approval
+
+↓
+
+Interview Questions
+
+↓
+
+Email
+
+↓
+
+Completed
+
+Verify EVERY step executes.
+
+====================================================
+LOGGING
+====================================================
+
+For every agent log:
+
+- Started
+- Finished
+- Execution time
+- Input
+- Output summary
+- Confidence
+- Database writes
+- Errors
+- Stack trace
+
+====================================================
+DATABASE
+====================================================
+
+Verify every collection is updated correctly:
+
+Candidates
+
+Jobs
+
+Workflow
+
+WorkflowLog
+
+GitHubReport
+
+LinkedInReport
+
+RoleRecommendation
+
+CandidateIntelligence
+
+ComparisonResult
+
+Do NOT create fake records.
+
+====================================================
+FRONTEND
+====================================================
+
+Every page must use ONLY real backend data.
+
+No demo data.
+
+No hardcoded arrays.
+
+No placeholder workflow.
+
+No random candidate.
+
+No fake AI results.
+
+React Flow must render ONLY nodes returned from:
+
+GET /api/workflows/:workflowId
+
+====================================================
+TESTING
+====================================================
+
+Run the application.
+
+Upload a NEW resume.
+
+Verify:
+
+✓ Candidate created
+
+✓ Workflow created
+
+✓ WorkflowLog created
+
+✓ Every agent executed
+
+✓ MongoDB updated
+
+✓ Qdrant updated
+
+✓ React Flow displays actual workflow nodes
+
+✓ AI reports generated
+
+✓ Ranking generated
+
+✓ Human approval works
+
+✓ Interview questions generated
+
+✓ Email workflow executes
+
+====================================================
+IMPORTANT
+====================================================
+
+If any agent fails:
+
+STOP.
+
+Find the root cause.
+
+Fix it.
+
+Run the workflow again.
+
+Repeat until ALL agents execute successfully.
+
+Do NOT tell me it is fixed unless you have VERIFIED it by running the application.
+
+The final application must use only REAL data, REAL AI outputs, and REAL workflow execution. No mocks, no placeholders, no fabricated success, and no demo data anywhere.
