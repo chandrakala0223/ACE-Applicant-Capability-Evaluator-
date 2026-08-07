@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm run build && node --env-file=../../.env --enable-source-maps ./dist/index.mjs",
+    "dev": "pnpm run build && node --enable-source-maps ./dist/index.mjs",
     "build": "node ./build.mjs",
-    "start": "node --env-file=../../.env --enable-source-maps ./dist/index.mjs",
+    "start": "node --enable-source-maps ./dist/index.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "seed": "node --env-file=../../.env ./seed.mjs"
+    "seed": "node ./seed.mjs"
   },
   "dependencies": {
     "@langchain/community": "^1.1.29",
